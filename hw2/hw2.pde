@@ -92,11 +92,11 @@ void setup() {
         }
       }
       if (dist(mouseX, mouseY, item1[0], item1[1]) < 60) { 
-      delay(1000);  //
+      delay(1000);  
       exit();
       }
       else if(dist(mouseX, mouseY, item2[0], item2[1]) < 50) {
-       delay(500);
+       delay(1000);
        exit();
       }
     }
